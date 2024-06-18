@@ -1,0 +1,490 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Lichte achtergrondkleur */
+    color: #333; /* Donkere tekst */
+}
+
+header {
+    background-color: #ffffff; /* Witte achtergrondkleur voor de header */
+    color: #333;
+    padding: 1em 0;
+    display: flex; /* Gebruik flexbox voor de header lay-out */
+    align-items: center;
+    justify-content: space-between; /* Verspreid items over de beschikbare ruimte */
+    padding: 0 2em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Schaduw voor header */
+
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #fbbd05; /* Geel zoals in het logo */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fbbd05; /* Geel zoals in het logo */
+}
+
+footer {
+    background-color: #fbbd05; /* Witte achtergrondkleur voor de footer */
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Schaduw voor footer */
+
+}
+
+main {
+    padding: 1.2em;
+    margin-bottom: 1em; /* Voor ruimte bij de footer */
+}
+
+section {
+    background-color: #ffffff; /* Witte achtergrondkleur voor secties */
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333; /* Donkere tekst */
+}
+
+/* Specifieke stijlen voor index.php */
+#index-banner {
+    background-color: #fbbd05; /* Geel zoals in het logo */
+    color: white;
+    padding: 2em;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+/* Specifieke stijlen voor contact.php */
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff; /* Witte achtergrondkleur voor formulieren */
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    margin-top: 1em;
+}
+
+input, textarea {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9; /* Lichte achtergrondkleur voor invoervelden */
+    color: #333; /* Donkere tekst */
+}
+
+button {
+    background-color: #fbbd05;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e0a904;
+}
+
+/* Specifieke stijlen voor login.html */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Witte achtergrondkleur voor formulieren */
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    margin-top: 1em;
+}
+
+input {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9; /* Lichte achtergrondkleur voor invoervelden */
+    color: #333; /* Donkere tekst */
+}
+
+button {
+    background-color: #fbbd05;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e0a904;
+}
+
+/* Specifieke stijlen voor register.html */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Witte achtergrondkleur voor formulieren */
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    margin-top: 1em;
+}
+
+input {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9; /* Lichte achtergrondkleur voor invoervelden */
+    color: #333; /* Donkere tekst */
+}
+
+button {
+    background-color: #fbbd05;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e0a904;
+}
+
+/* Specifieke stijlen voor cart.php */
+.cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 1em 0;
+    color: #333; /* Donkere tekst */
+}
+
+.cart-item h4 {
+    margin: 0;
+}
+
+.total {
+    font-weight: bold;
+    margin-top: 1em;
+    color: #333; /* Donkere tekst */
+}
+
+button {
+    background-color: #fbbd05;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e0a904;
+}
+
+/* Specifieke stijlen voor checkout.html */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Witte achtergrondkleur voor formulieren */
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    margin-top: 1em;
+}
+
+input, select {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9; /* Lichte achtergrondkleur voor invoervelden */
+    color: #333; /* Donkere tekst */
+}
+
+button {
+    background-color: #fbbd05;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e0a904;
+}
+/* Slider styles */
+.slider {
+    position: relative;
+    max-width: 300px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1em;
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.cart-count {
+    background-color: #fbbd05; /* Geel zoals in het logo */
+    color: white;
+    border-radius: 50%;
+    padding: 0.2em 0.5em;
+    font-size: 0.8em;
+    position: absolute;
+    transform: translate(50%, -50%);
+}
+.text-image-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: #ffffff; /* Witte achtergrondkleur voor de sectie */
+    margin: 2em 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 2em;
+}
+
+.image-content {
+    flex: 1;
+}
+
+.text-image {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+button {
+    background-color: #fbbd05;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e0a904;
+}
+
+.cart-item button {
+    background-color: #ff4d4d; /* Rood voor de verwijderknop */
+    margin-left: 1em;
+}
+
+.cart-item button:hover {
+    background-color: #e04141; /* Donkerder rood bij hover */
+}
+.logo {
+    width: 280px; /* Pas deze waarde aan naar de gewenste breedte */
+    height: auto; /* Hiermee wordt de hoogte automatisch aangepast in verhouding tot de breedte */
+}
+.slides {
+    width: 200px; /* Pas deze waarde aan naar de gewenste breedte */
+
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); /* Maak drie kolommen met gelijke breedte */
+    gap: 40px; /* Voeg ruimte toe tussen de items */
+}
+
+
+.gallery-item {
+    text-align: center; /* Centreer de inhoud van elk item */
+}
+
+.gallery-item img {
+    height: 150px; /* Stel een vaste hoogte in voor de afbeeldingen */
+    width: auto; /* Laat de breedte automatisch aanpassen om de aspect ratio te behouden */
+    display: block; /* Zorg ervoor dat de afbeelding een blokniveau-element is */
+    margin: 0 auto; /* Centreer de afbeelding horizontaal */
+    object-fit: cover; /* Zorg ervoor dat de afbeelding de container vult en bijsnijdt indien nodig */
+}
+
+.gallery-item p {
+    margin-top: 3px; /* Voeg wat ruimte toe tussen de afbeelding en de tekst */
+}
+
+.gallery-item img:hover {
+    outline: 3px solid orange; /* Voeg een oranje omlijning toe aan de afbeelding wanneer gehoverd */
+    outline-offset: -3px; /* Verminder de afstand tussen de afbeelding en de outline */
+}
+/* About Us Section */
+#about-us {
+    padding: 1.5em;
+    background-color: #ffffff; /* Witte achtergrondkleur voor de sectie */
+    margin: 2em 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333; /* Donkere tekst */
+
+}
+
+#about-us h2 {
+    font-size:2em
+}
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.product img {
+    width: 100%;
+    height: auto; /* Zorgt ervoor dat de afbeelding zijn verhoudingen behoudt */
+    max-height: 200px; /* Stel een maximale hoogte in, pas deze waarde aan naar behoefte */
+    object-fit: cover; /* Zorgt ervoor dat de afbeelding bijgesneden wordt om de container te vullen */
+}
+
+
+
+.product button {
+    margin-top: 10px;
+}
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Adjusts the space between the text and the image */
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-image {
+    flex: 0 0 auto;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+.alert {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+

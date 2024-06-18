@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header>
+  <div class="logo-container">
+    <a href="/examen/test/index.php">
+      <img src="../image/skinbeauty.JPG" alt="Logo" class="logo">
+    </a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="../index.php">Home</a></li>
+      <li><a href="../shop/shop.php">Shop</a></li>
+      <li><a href="../contact.php">Contact</a></li>
+      <li><a href="cart.php"><i class="fas fa-shopping-cart"></i> </a></li>
+      <li class="login"><a href="../user/login.html">Login</a></li>
+    </ul>
+  </nav>
+</header>
+<center><h1>Afrekenen</h1></center>
+<main>
+  <section>
+    <h2>Betalingsgegevens</h2>
+    <form action="checkout.php" method="post">
+      <label for="name">Naam:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="address">Adres:</label>
+      <input type="text" id="address" name="address" required>
+
+      <label for="city">Stad:</label>
+      <input type="text" id="city" name="city" required>
+
+      <label for="zip">Postcode:</label>
+      <input type="text" id="zip" name="zip" required>
+
+      <label for="country">Land:</label>
+      <input type="text" id="country" name="country" required>
+
+      <label for="payment">Betaalmethode:</label>
+      <select id="payment" name="payment" required>
+        <option value="creditcard">Creditcard</option>
+        <option value="paypal">PayPal</option>
+        <option value="ideal">iDEAL</option>
+      </select>
+
+      <button type="submit">Afrekenen</button>
+    </form>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2024 Onze Website. Alle rechten voorbehouden.</p>
+</footer>
+</body>
+</html>
