@@ -4,21 +4,21 @@ $is_logged_in = isset($_SESSION["username"]);
 $product_id = $_GET['id'];
 
 $products = [
-    1 => ["name" => "Product 1", "description" => "Beschrijving van product 1", "image" => "../image/product1.jpg", "price" => 75],
-    2 => ["name" => "Product 2", "description" => "Beschrijving van product 2", "image" => "../image/product2.jpg", "price" => 69.95],
-    3 => ["name" => "Product 3", "description" => "Beschrijving van product 3", "image" => "../image/product3.jpg", "price" => 30],
-    4 => ["name" => "Product 4", "description" => "Beschrijving van product 4", "image" => "../image/product4.jpg", "price" => 165.25],
-    5 => ["name" => "Product 5", "description" => "Beschrijving van product 5", "image" => "../image/product5.jpg", "price" => 50],
-    6 => ["name" => "Product 6", "description" => "Beschrijving van product 6", "image" => "../image/product6.jpg", "price" => 33.95],
-    7 => ["name" => "Product 7", "description" => "Beschrijving van product 7", "image" => "../image/product7.jpg", "price" => 34.25],
-    8 => ["name" => "Product 8", "description" => "Beschrijving van product 8", "image" => "../image/product8.jpg", "price" => 85.95],
-    9 => ["name" => "Product 9", "description" => "Beschrijving van product 9", "image" => "../image/product9.jpg", "price" => 36.95],
-    10 => ["name" => "Product 10", "description" => "Beschrijving van product 10", "image" => "../image/product10.jpg", "price" => 100],
-    11 => ["name" => "Product 11", "description" => "Beschrijving van product 11", "image" => "../image/product11.jpg", "price" => 110],
-    12 => ["name" => "Product 12", "description" => "Beschrijving van product 12", "image" => "../image/product12.jpg", "price" => 120],
-    13 => ["name" => "Product 13", "description" => "Beschrijving van product 13", "image" => "../image/product13.jpg", "price" => 130],
-    14 => ["name" => "Product 14", "description" => "Beschrijving van product 14", "image" => "../image/product14.jpg", "price" => 140],
-    15 => ["name" => "Product 15", "description" => "Beschrijving van product 15", "image" => "../image/product15.jpg", "price" => 150],
+    1 => ["name" => "Awaken + Balance", "description" => "Beschrijving van product 1", "image" => "../image/product1.jpg", "price" => 75],
+    2 => ["name" => "Pure glow Serum", "description" => "Beschrijving van product 2", "image" => "../image/product2.jpg", "price" => 69.95],
+    3 => ["name" => "Skin-bundel", "description" => "Beschrijving van product 3", "image" => "../image/product3.jpg", "price" => 120],
+    4 => ["name" => "Active A Serum", "description" => "Beschrijving van product 4", "image" => "../image/product4.jpg", "price" => 165.25],
+    5 => ["name" => "Lumiere serum", "description" => "Beschrijving van product 5", "image" => "../image/product5.jpg", "price" => 75],
+    6 => ["name" => "COLLAGEEN CAPSULES", "description" => "Beschrijving van product 6", "image" => "../image/product6.jpg", "price" => 33.95],
+    7 => ["name" => "Lumière de Vie® Intensive Hand & Body Crème", "description" => "Beschrijving van product 7", "image" => "../image/product7.jpg", "price" => 34.25],
+    8 => ["name" => "Deep Hydrating Moisturiser", "description" => "Beschrijving van product 8", "image" => "../image/product8.jpg", "price" => 85.95],
+    9 => ["name" => "COLLAGEEN & HYALURONZUUR", "description" => "Beschrijving van product 9", "image" => "../image/product9.jpg", "price" => 36.95],
+    10 => ["name" => "Eye skin tone Glycolic acid", "description" => "Beschrijving van product 10", "image" => "../image/product10.jpg", "price" => 10],
+    11 => ["name" => "Hydration Squalane", "description" => "Beschrijving van product 11", "image" => "../image/product11.jpg", "price" => 24.35],
+    12 => ["name" => "Hydration Soothing & Barrier Support Serum", "description" => "Beschrijving van product 12", "image" => "../image/product12.jpg", "price" => 34.35],
+    13 => ["name" => "BEAUTY OF JOSEON", "description" => "Beschrijving van product 13", "image" => "../image/product13.jpg", "price" => 15],
+    14 => ["name" => "Heartleaf Pore Control Cleansing Oil", "description" => "Beschrijving van product 14", "image" => "../image/product14.jpg", "price" => 55],
+    15 => ["name" => "CeraV Duo cleanser+lotion", "description" => "Beschrijving van product 15", "image" => "../image/product15.jpg", "price" => 20],
 ];
 
 $product = $products[$product_id];
